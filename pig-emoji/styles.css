@@ -43,3 +43,10 @@
 .eye:nth-child(2) {
   right: 30px;
 }
+
+.pupil {
+  width: 50%;
+  height: 50%;
+  border-radius: 50%;
+  background-color: Oblack;
+}
