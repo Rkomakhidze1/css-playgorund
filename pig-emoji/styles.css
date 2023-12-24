@@ -32,6 +32,9 @@
   top: 40px;
   width: 50px;
   height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border: 2px solid 2px black;
   border-radius: 50%;
   background-color: white;
@@ -48,5 +51,5 @@
   width: 50%;
   height: 50%;
   border-radius: 50%;
-  background-color: Oblack;
+  background-color: black;
 }
