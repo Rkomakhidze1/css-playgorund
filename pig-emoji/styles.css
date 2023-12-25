@@ -53,3 +53,12 @@
   border-radius: 50%;
   background-color: black;
 }
+
+.nose {
+  position: absolute;
+  width: 100px;
+  height: 60px;
+  border: 2px solid black;
+  border-radius: 35%;
+  background-color: #f57187;
+}
