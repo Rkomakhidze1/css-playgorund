@@ -2,15 +2,15 @@
   --main-color: #ffc0cb;
   --main-border: 5px solid black;
   --secondary-border: 2px solid black;
-  --head-size: 5px solid black;
+  --head-size: 200px;
 }
 
 .head {
   position: relative;
-  width: 200px;
-  height: 200px;
+  width: var(--head-size);
+  height: var(--haed-size);
   border-radius: 50%;
-  border: 5px solid black;
+  border: var(--main-border);
   margin-top: 20px;
   background-color: var(--main-color);
 }
@@ -21,7 +21,7 @@
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  border: 5px solid black;
+  border: var(--main-border);
   background-color: var(--main-color);
   top: -10px;
 }
@@ -72,7 +72,7 @@
   left: 0;
   margin: 0 auto;
   bottom: 30px;
-  border: 2px solid black;
+  border: var(--secondary-border);
   border-radius: 35%;
   background-color: #f57187;
 }
