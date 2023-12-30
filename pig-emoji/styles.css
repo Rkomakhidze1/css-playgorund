@@ -8,7 +8,7 @@
 .head {
   position: relative;
   width: var(--head-size);
-  height: var(--haed-size);
+  height: var(--head-size);
   border-radius: 50%;
   border: var(--main-border);
   margin-top: 20px;
