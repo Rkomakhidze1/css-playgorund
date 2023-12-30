@@ -1,5 +1,7 @@
 :root {
   --main-color: #ffc0cb;
+  --main-border: 5px solid black;
+  --secondary-border: 2px solid black;
 }
 
 .head {
