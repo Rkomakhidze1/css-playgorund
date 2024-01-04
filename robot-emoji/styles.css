@@ -4,4 +4,24 @@
   margin: 50px;
   border: 5px solid #9bbcc2;
   background-color: #a4d9eb;
+  position: relative;
+}
+
+.light {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  top: -45px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.bulb {
+  width: 30px;
+  height: 30px;
+  margin-bottom: -5px;
+  border-radius: 50%;
+  background-color: #ffa500;
+  z-index: 1;
 }
