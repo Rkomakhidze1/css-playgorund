@@ -44,8 +44,12 @@
 
 .ear:first-of-type {
   left: -15px;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
 }
 
 .ear:last-of-type {
   right: -15px;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
 }
