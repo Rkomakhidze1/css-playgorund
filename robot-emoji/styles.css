@@ -53,3 +53,18 @@
   border-bottom-right-radius: 5px;
   border-top-right-radius: 5px;
 }
+
+.eyes {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding-top: 25px;
+}
+
+.eye {
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  border-radius: 50%;
+  border: 5px solid #00b3ff;
+}
