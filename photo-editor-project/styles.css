@@ -75,3 +75,26 @@ button {
   border-radius: 50%;
   margin-right: 7px;
 }
+
+/* ---------------- */
+
+.sidebar {
+    background-color: #10171A;
+    width: 75px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.menu__button {
+    padding: 19px 0;
+    color: rgba(255, 255, 255, 0.4);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    transition: all 0.4s;
+    animation: fade-in-from-left 0.5s;
+}
+
+
