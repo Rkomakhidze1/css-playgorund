@@ -231,3 +231,104 @@ button {
   font-size: 25px;
   color: #21292d;
 }
+
+/* ---------------- */
+
+.main {
+  background-color: #edf1f3;
+  flex: 1;
+}
+
+.info-bar {
+  height: 50px;
+  background-color: #fff;
+  border-bottom: 1px solid #d6dde1;
+  padding: 0 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.breadcrumbs {
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-size: 12px;
+}
+
+.breadcrumbs__link {
+  color: #a6adb1;
+  text-decoration: none;
+}
+
+.breadcrumbs__icon {
+  color: #a6adb1;
+  margin: 0 13px;
+}
+
+.breadcrumbs__name {
+  color: #2e3335;
+  font-weight: 500;
+}
+
+.button {
+  background-color: #375bb6;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 8px 20px;
+  cursor: pointer;
+  border-radius: 500px;
+  transition: all 0.4s;
+}
+
+.button:hover,
+.button:focus {
+  background-color: #26438d;
+}
+
+.artboard {
+  height: calc(100vh - 50px - 55px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -25px;
+  column-gap: 20px;
+}
+
+.canvas {
+  height: 57.5vh;
+  width: 48.6vw;
+  position: relative;
+  border: 1px solid #fff;
+  border-radius: 3px;
+}
+
+.canvas__bg-img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  opacity: 0.15;
+}
+
+.canvas__fg-img {
+  height: 75%;
+  width: 78%;
+  object-fit: cover;
+  border-radius: 3px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid #fff;
+  cursor: grab;
+  animation: make-smaller 1s 0.2s backwards;
+}
+
+.canvas__circle {
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  background-color: #fff;
+  position: absolute;
+  animation: fade-in 1s 1s backwards;
+}
