@@ -144,9 +144,6 @@ button {
   flex-direction: column;
 }
 
-.menu {
-}
-
 .menu__button {
   padding: 19px 0;
   color: rgba(255, 255, 255, 0.4);
