@@ -445,3 +445,14 @@ button {
   background-color: #2b363b;
   color: #fff;
 }
+
+/* MEDIA QUERIES */
+@media (max-width: 1200px) {
+  .panel {
+    display: none;
+  }
+
+  .canvas {
+    width: 67vw;
+  }
+}
