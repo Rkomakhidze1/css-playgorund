@@ -60,3 +60,45 @@ a {
 .u-bolder {
   font-weight: 700;
 }
+
+// BASE STYLES
+html {
+  font-size: 62.5%;
+}
+
+.page {
+  font-family: "Poppins", sans-serif;
+
+  font-size: 1.4rem;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  background-image: url(),
+    linear-gradient(to bottom right, #8fd861, #2cc695 90%);
+  scrollbar-width: none;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+.app {
+  width: 124rem;
+  height: 103rem;
+  background-color: #fff;
+  box-shadow: 0 25px 150px rgba(0, 0, 0, 0.65);
+  margin: 80px 0;
+
+  display: grid;
+  grid-template-columns: 355px 1fr;
+  grid-template-rows: 65px 724px 1fr;
+
+  @media (max-width: 1300px) {
+    width: 100%;
+    margin: 0;
+  }
+
+  @media (max-width: 355px) {
+    grid-template-columns: 1fr;
+  }
+}
