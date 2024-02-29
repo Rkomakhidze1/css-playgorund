@@ -29,13 +29,34 @@ a {
 
 // KEYFRAMES
 @keyframes fade-in {
-    0% {
-        opacity: 0;
-        transform: translateY(20px);
-    }
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
 
-    100% {
-        opacity: 1;
-        transform: translateY(0);
-    }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+// UTILITY CLASS
+.u-italic {
+  font-style: italic;
+}
+
+.u-accent {
+  color: $color-accent;
+}
+
+.u-underline {
+  text-decoration: underline;
+}
+
+.u-bold {
+  font-weight: 500;
+}
+
+.u-bolder {
+  font-weight: 700;
 }
