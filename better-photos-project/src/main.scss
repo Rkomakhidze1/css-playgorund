@@ -158,3 +158,29 @@ html {
     }
   }
 }
+
+.nav {
+  margin-left: auto;
+
+  &__list {
+    display: flex;
+  }
+
+  &__link {
+    padding: 0 20px;
+    transition: $ts;
+    height: 65px;
+    display: block;
+
+    &:hover,
+    &:focus {
+      background-color: $color-grey-light;
+    }
+  }
+
+  &__icon {
+    color: $color-grey-medium;
+    font-size: 22px;
+    line-height: 65px;
+  }
+}
