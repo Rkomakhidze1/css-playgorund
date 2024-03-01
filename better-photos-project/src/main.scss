@@ -184,3 +184,169 @@ html {
     line-height: 65px;
   }
 }
+
+// ------------------
+
+.sidebar {
+  background-color: #11271f;
+
+  grid-column: 1 / 2;
+  grid-row: 2 / 4;
+
+  @media (max-width: 580px) {
+    grid-column: 1 / -1;
+  }
+}
+
+.intro {
+  padding: 48px 35px 45px;
+  border-bottom: 1px solid rgba(#fff, 0.1);
+
+  &__text {
+    color: $color-grey-light;
+    font-size: 16px;
+    margin-top: 12px;
+    line-height: 1.8;
+  }
+}
+
+.first-heading {
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 34px;
+  line-height: 1;
+
+  @media (max-width: 355px) {
+    font-size: 31px;
+  }
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  margin: 25px 0 30px;
+
+  &__img {
+    height: 35px;
+    width: 35px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid #fff;
+
+    &:not(:first-child) {
+      margin-left: -8px;
+    }
+  }
+
+  &__container {
+    margin-left: 10px;
+  }
+
+  &__number {
+    font-weight: 500;
+  }
+
+  &__text {
+    font-size: 12px;
+    color: $color-grey-medium;
+    margin-top: -5px;
+  }
+}
+
+.auth {
+  &__text {
+    color: $color-grey-medium;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 8px;
+  }
+
+  &__link {
+    font-weight: 500;
+    color: $color-accent;
+  }
+}
+
+.btn {
+  background-color: #16b47f;
+  padding: 12px 0;
+  display: block;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+  transition: $ts;
+
+  &:hover,
+  &:focus {
+    background-color: #119267;
+  }
+
+  &__icon {
+    margin-left: 2px;
+  }
+}
+
+.upload {
+  padding: 45px 35px;
+  border-bottom: 1px solid rgba(#fff, 0.1);
+  color: $color-grey-medium;
+
+  &__container {
+    background-color: rgba(#fff, 0.03);
+    height: 330px;
+    border-radius: 3px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: $ts;
+    position: relative;
+    overflow: hidden;
+
+    &:hover {
+      background-color: rgba(#fff, 0.06);
+    }
+
+    &::before {
+      content: "";
+      border: 2px dashed #434747;
+      position: absolute;
+      top: -1px;
+      bottom: -1px;
+      left: -1px;
+      right: -1px;
+    }
+  }
+
+  &__icon {
+    font-size: 23px;
+  }
+
+  &__text {
+    color: #fff;
+    margin-top: 8px;
+  }
+
+  &__alternative {
+    font-size: 12px;
+    margin-top: -2px;
+  }
+}
+
+.footer {
+  padding-top: 50px;
+  padding-left: 35px;
+  font-size: 11px;
+  color: rgba($color-grey-medium, 0.6);
+
+  &__list {
+    display: flex;
+    column-gap: 15px;
+    margin-top: 10px;
+  }
+}
+
+.copyright {
+  font-size: inherit;
+}
